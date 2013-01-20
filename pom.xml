@@ -85,6 +85,14 @@
 			<artifactId>slf4j-api</artifactId>
 			<version>1.7.2</version>
 		</dependency>
+		
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.hibernate</groupId> -->
+<!-- 			<artifactId>hibernate-envers</artifactId> -->
+<!-- 			<version>4.1.9.Final</version> -->
+<!-- 		</dependency> -->
+		            		
+		            		
 		            		
 		            
 
