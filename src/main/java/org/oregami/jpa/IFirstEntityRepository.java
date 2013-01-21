@@ -3,6 +3,7 @@ package org.oregami.jpa;
 import org.hsqldb.rights.User;
 import org.oregami.entities.FirstEntity;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.history.RevisionRepository;
 
 
 /**
@@ -12,7 +13,7 @@ import org.springframework.data.repository.CrudRepository;
  */
 public interface IFirstEntityRepository 
 extends CrudRepository<FirstEntity, Long>
- //, RevisionRepository<User, Long, Integer> 
+ , RevisionRepository<User, Long, Integer> 
 	{
 
 	

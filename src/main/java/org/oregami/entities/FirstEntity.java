@@ -2,7 +2,10 @@ package org.oregami.entities;
 
 import javax.persistence.Entity;
 
+import org.hibernate.envers.Audited;
+
 @Entity
+@Audited
 public class FirstEntity extends BaseEntity {
 
 	private String stringField ;
